@@ -15,6 +15,6 @@ spec:
      spec:
         containers:
         - name: myonlineapp-container
-          image: vinithttps/mywarimage11323:1
+          image: husenpatel/mywarimage19323:1
           ports:
           - containerPort: 8080 
