@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: vertex-deploy
   labels:
-    app: myvertexappb
+    app: vertexappb
 spec:
   replicas: 3
   selector:
       matchLabels:
-         app: myvertexapp
+         app: vertexapp
   template:
      metadata:
        labels: 
-         app: myvertexapp
+         app: vertexapp
      spec:
        containers:
         - name: myvertexapp-container
