@@ -8,11 +8,11 @@ spec:
   replicas: 3
   selector:
       matchLabels:
-         app: myvertexappb
+         app: myvertexapp
   template:
      metadata:
        labels: 
-         app: myvertexappb
+         app: myvertexapp
      spec:
        containers:
         - name: myvertexapp-container
