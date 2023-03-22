@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   name: vertex-deploy
   labels:
-    app: vertexappb
+    app: myvertexappb
 spec:
   replicas: 3
   selector:
       matchLabels:
-         app: vertexapp
+         app: myvertexapp
   template:
      metadata:
        labels: 
-         app: vertexapp
+         app: myvertexapp
      spec:
        containers:
-        - name: vertexapp-container
-          image:  husenpatel/warbbimage20323:1
+        - name: myvertexapp-container
+          image: husenpatel/warbbimage20323:1
           ports:
             - containerPort: 8080
