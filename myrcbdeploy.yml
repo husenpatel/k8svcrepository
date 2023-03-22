@@ -15,7 +15,7 @@ spec:
          app: vertexapp
      spec:
        containers:
-        - name: myvertexapp-container
+        - name: vertexapp-container
           image:  husenpatel/warbbimage20323:1
           ports:
             - containerPort: 8080
